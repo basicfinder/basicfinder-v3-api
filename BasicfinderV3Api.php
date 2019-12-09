@@ -201,7 +201,7 @@ class BasicfinderV3Api
         $url = $this->apiHost . '/site/upload-private-file';
         
         $params = [];
-        $params['file'] = $filepath;
+        $params['file'] = "@".$filepath;
         
         $response = $this->request_with_accesstoken($url, $params, 'post');
         if(!empty($response['error']))

@@ -1,6 +1,6 @@
 {
 
-    "name": "basicfinder/basicfiner-v3-api",
+    "name": "basicfinder/basicfinder-v3-api",
 
 
     "type": "yii2-extension",
@@ -9,9 +9,9 @@
     "keywords": ["yii2", "basicfinder", "api", "helper"],
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/basicfinder/basicfiner-v3-api/issues",
-        "wiki": "https://github.com/basicfinder/basicfiner-v3-api/wiki",
-        "source": "https://github.com/basicfinder/basicfiner-v3-api"
+        "issues": "https://github.com/basicfinder/basicfinder-v3-api/issues",
+        "wiki": "https://github.com/basicfinder/basicfinder-v3-api/wiki",
+        "source": "https://github.com/basicfinder/basicfinder-v3-api"
     },
     "authors": [
         {
