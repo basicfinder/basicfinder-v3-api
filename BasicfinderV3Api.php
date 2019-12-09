@@ -198,10 +198,12 @@ class BasicfinderV3Api
     
     public function uploadFile($filepath)
     {
+        $url = $this->apiHost . '/site/upload-private-file';
+        
+        $params = [];
         $params['file'] = $filepath;
         
-        $url = $this->apiHost . '/site/upload-private-file';
-        $response = $this->request_with_accesstoken($url, $data, 'post');
+        $response = $this->request_with_accesstoken($url, $params, 'post');
         if(!empty($response['error']))
         {
             return $this->format('', $response['error'], $response['message']);
