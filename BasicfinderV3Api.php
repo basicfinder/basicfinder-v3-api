@@ -11,7 +11,7 @@ namespace basicfinder\BasicfinderV3Api;
 
 class BasicfinderV3Api
 {
-    private $apiHost = 'http://v3.api.basicfinder.com';//测试环境为 http://devsaas.api.basicfinder.com
+    private $apiHost = 'http://v3.api.basicfinder.com';//测试环境为 http://devv3.api.basicfinder.com
     private $appKey = null;
     private $appVersion = null;
     private $username = null;
